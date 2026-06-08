@@ -25,7 +25,7 @@ const safeDeleteWinner = async (id: number) => {
   try {
     await deleteWinner(id);
   } catch {
-    // The server returns 404 when the deleted car has never won a race.
+    // The server returns 404 when the deleted car has never won a race
   }
 };
 
