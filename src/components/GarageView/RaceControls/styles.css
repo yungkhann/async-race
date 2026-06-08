@@ -1,0 +1,12 @@
+.race-controls {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 600px) {
+  .race-controls {
+    flex-direction: column;
+  }
+}

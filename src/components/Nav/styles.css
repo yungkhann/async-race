@@ -1,0 +1,33 @@
+.nav {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.nav-btn {
+  min-width: 118px;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.14), transparent 44%),
+    linear-gradient(135deg, #3b4350, #20252d);
+  color: rgba(248, 251, 255, 0.74);
+}
+
+.nav-btn.active {
+  border-color: rgba(255, 255, 255, 0.36);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.18), transparent 44%),
+    linear-gradient(135deg, var(--color-blue), var(--color-blue-dark));
+  color: #ffffff;
+}
+
+@media (max-width: 600px) {
+  .nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .nav-btn {
+    min-width: 0;
+    width: 100%;
+  }
+}

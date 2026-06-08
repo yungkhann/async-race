@@ -1,0 +1,44 @@
+.car-item {
+  padding: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: var(--radius-md);
+  background:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.08),
+      transparent 24%,
+      transparent 76%,
+      rgba(255, 255, 255, 0.05)
+    ),
+    rgba(4, 7, 16, 0.64);
+  box-shadow:
+    0 12px 28px rgba(0, 0, 0, 0.26),
+    inset 0 1px 0 rgba(255, 255, 255, 0.06);
+}
+
+.car-item.selected {
+  border-color: rgba(255, 255, 255, 0.38);
+  box-shadow:
+    0 0 0 2px rgba(255, 255, 255, 0.12),
+    0 12px 28px rgba(0, 0, 0, 0.28),
+    inset 0 1px 0 rgba(255, 255, 255, 0.12);
+}
+
+.car-actions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.car-name {
+  color: var(--color-text);
+  font-weight: 600;
+}
+
+@media (max-width: 600px) {
+  .car-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}

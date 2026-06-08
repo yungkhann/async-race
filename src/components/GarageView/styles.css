@@ -1,0 +1,26 @@
+.garage-view {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.garage-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  padding: 0 2px;
+}
+
+.pagination {
+  display: flex;
+  gap: 10px;
+}
+
+@media (max-width: 600px) {
+  .garage-header {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 6px;
+  }
+}
