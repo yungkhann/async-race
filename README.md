@@ -1,10 +1,8 @@
 # Async Race
 
-Deployment: pending
+Deployment: https://async-race-ashy.vercel.app/
 
 Estimated score: 400 / 400
-
-> The frontend is ready for deployment. Replace `pending` with the hosted UI URL after publishing to GitHub Pages, Netlify, Vercel, Cloudflare Pages, or another static hosting service.
 
 ## Setup
 
@@ -28,14 +26,14 @@ npm run ci:format
 
 ## UI Deployment
 
-- [ ] Deployment Platform: Successfully deploy the UI on GitHub Pages, Netlify, Vercel, Cloudflare Pages, or a similar service.
+- [x] Deployment Platform: Successfully deploy the UI on GitHub Pages, Netlify, Vercel, Cloudflare Pages, or a similar service.
 
 ## Requirements to Commits and Repository
 
 - [x] Commit guidelines compliance: commits should follow the specified Conventional Commits format.
 - [x] Checklist included in README.md.
 - [x] Score calculation included at the top of README.md.
-- [ ] UI Deployment link in README.md: add the hosted frontend URL after deployment.
+- [x] UI Deployment link in README.md: add the hosted frontend URL after deployment.
 
 ## Basic Structure 80 / 80 points
 
